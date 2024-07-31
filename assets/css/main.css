@@ -4704,3 +4704,15 @@ height:75px;
 	width:150px;
 height:150px;
 	}
+
+	
+	.samzy-wrap {
+		z-index: -100;
+	  }
+
+	  .samzy-video {
+
+		object-fit: fill;
+	width: 65%;
+	height: 65%;
+	  }
