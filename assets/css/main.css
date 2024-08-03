@@ -4719,6 +4719,5 @@ height:150px;
 
 .samimage{
 	display: flex;
-	align-items: center;
-	flex-direction: column;
+	flex-wrap: wrap;
 }
