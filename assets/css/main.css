@@ -4716,3 +4716,9 @@ height:150px;
 	width: 65%;
 	height: 65%;
 	  }
+
+.samimage{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
