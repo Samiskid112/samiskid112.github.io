@@ -1,8 +1,4 @@
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 (function($) {
 
@@ -13,13 +9,9 @@
 		$nav = $('#nav'),
 		$main = $('#main'),
 		$navPanelToggle, $navPanel, $navPanelInner;
-		
+
 //Loading Animation Network
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
+
 
 
 	// Breakpoints.
@@ -125,6 +117,8 @@
 			}, 100);
 		});
 
+	
+		
 	// Scrolly.
 		$('.scrolly').scrolly();
 
