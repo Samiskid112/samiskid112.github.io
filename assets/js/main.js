@@ -13,6 +13,14 @@
 		$nav = $('#nav'),
 		$main = $('#main'),
 		$navPanelToggle, $navPanel, $navPanelInner;
+		
+//Loading Animation Network
+		$window.on('load', function() {
+			window.setTimeout(function() {
+				$body.removeClass('is-preload');
+			}, 100);
+		});
+
 
 	// Breakpoints.
 		breakpoints({
