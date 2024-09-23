@@ -258,3 +258,30 @@
 		}
 
 })(jQuery);
+
+
+let image = [ 'newimage/newimage.jpeg','newimage/newimage1.jpeg','newimage/newimage2.jpeg','newimage/newimage3.jpeg',
+	'newimage/newimage4.jpeg','newimage/newimage5.jpeg', 'newimage/newimage6.jpeg' ,'newimage/newimage7.jpeg',
+	'newimage/newimage8.jpeg', 'newimage/newimage9.jpeg', 'newimage/newimage10.jpeg', 'newimage/newimage11.jpeg', 'newimage/newimage12.jpeg',
+'newimage/newimage13.jpeg','newimage/newimage14.jpeg', 'newimage/newimage15.jpeg', 'newimage/newimage16.jpeg', 'newimage/newimage17.jpeg',
+ 'newimage/newimage18.jpeg', 'newimage/newimage19.jpeg', 'newimage/newimage20.jpeg']
+let imagenum= 0;
+
+document.getElementById('next').onclick=next;
+document.getElementById('prev').onclick=prev;
+function next(){
+    if(imagenum >= image.length-1){
+        imagenum=0
+    }
+    imagenum++;
+    document.getElementById('image').src=image[imagenum]
+}
+
+function prev(){
+   if(imagenum <= 0){
+    imagenum= image.length-1;
+   }
+
+    imagenum--;
+    document.getElementById('image').src=image[imagenum]
+}
