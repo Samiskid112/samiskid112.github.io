@@ -4717,9 +4717,12 @@ height:150px;
 	
 	  }
 
-.samimage{
-	display: flex;
-	flex-wrap: wrap;
+.imagefit{
+	outline: 1px solid black;
+	box-shadow: 10px 10px 10px black;
+	position: relative;
+	left: 60px;
+	width: 70%;
 }
 
 
