@@ -4765,4 +4765,6 @@ height:150px;
 	.btn1:hover{
 		box-shadow: inset 0.25rem .25rem .25rem black;
 	}
-	
+	.fit{
+		border-radius: .625rem;
+	}
