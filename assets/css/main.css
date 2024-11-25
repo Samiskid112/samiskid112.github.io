@@ -4761,3 +4761,11 @@ height:150px;
 	.fit{
 		border-radius: .625rem;
 	}
+
+.lastlogo{
+	display: flex;
+	flex-direction: column;
+}
+.lastlogos{
+	display: flex;
+}
