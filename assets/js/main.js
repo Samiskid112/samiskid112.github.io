@@ -261,8 +261,10 @@
 
 
 let image = [ 'newimage/newimage30.jpeg','newimage/newimage.jpeg','newimage/newimage2.jpeg','newimage/newimage3.jpeg',
-	'newimage/newimage4.jpeg','newimage/newimage5.jpeg','newimage/newimage21.jpeg','newimage/newimage22.jpeg','newimage/newimage23.jpeg',
-	'newimage/newimage24.jpeg','newimage/newimage25.jpeg','newimage/newimage26.jpeg','newimage/newimage27.jpeg',
+	'newimage/NEWPIC1.jpeg','newimage/NEWPIC2.jpeg', 'newimage/NEWPIC3.jpeg', 'newimage/NEWPIC4.jpeg','newimage/NEWPIC5.jpeg',
+	'newimage/NEWPIC6.jpeg','newimage/NEWPIC7.jpeg','newimage/NEWPIC8.jpeg','newimage/NEWPIC9.jpeg','newimage/NEWPIC10.jpeg',
+	'newimage/NEWPIC11.jpeg'
+	
 ]
 let imagenum= 0;
 
